@@ -7,7 +7,7 @@ const mailsDestinos = {
             ERES NUEVO SUBSCRIPTOR <br />
             MERCADO GAMER
             </h1>
-            <a href="http://localhost:3000/" target="_blank" title="ir a la página">
+            <a href="https://gamingused.herokuapp.com/" target="_blank" title="ir a la página">
             <img
                 style="  top: 0;margin: 0;padding: 20px;"
                 src="https://res.cloudinary.com/dyntggmrp/image/upload/v1631216888/usadoGamer/login_qvusbo.png"
@@ -27,15 +27,15 @@ const mailsDestinos = {
             <div style="background: rgb(255, 255, 255, 0.3); padding: 10px 0; width: 100%;">
                 <h1 style="color: #fff; font-weight: 800; margin-bottom: 10px; text-align: center;">VALICACIÓN DE CUENTA</h1>
                 <h6 style="color: rgb(0, 0, 0); font-weight: 400; font-size: 18px; text-align: center">
-                    Tu email ha sido registrado en <a href="http://localhost:3000/" target="_blanck" style="color: #fff; text-align: center">usedgaming.com</a>
+                    Tu email ha sido registrado en <a href="https://gamingused.herokuapp.com/" target="_blanck" style="color: #fff; text-align: center">usedgaming.com</a>
                 </h6>
                 
-                <a href="http://localhost:3000/validar-email/${token}" target="_blanck"  style="margin-top: 50px; width: 100%;">
+                <a href="https://gamingused.herokuapp.com/validar-email/${token}" target="_blanck"  style="margin-top: 50px; width: 100%;">
                     <img src="https://res.cloudinary.com/dyntggmrp/image/upload/v1631216888/usadoGamer/login_qvusbo.png" alt="img-gaming" width="300px" style="display: block; margin: 0 auto;"/>
                 </a>
 
                 <h6 style="font-size: 16px; text-align: center">
-                    haz click en la imagen o <a href="http://localhost:3000/validar-email/${token}" target="_blanck" style="color: rgb(85, 123, 172);">aqui</a> para validarlo
+                    haz click en la imagen o <a href="https://gamingused.herokuapp.com/validar-email/${token}" target="_blanck" style="color: rgb(85, 123, 172);">aqui</a> para validarlo
                 </h6>
                 <p style="text-align: center">En caso que no seas tú, puedes ignorarlo</p>
                 <img src="https://res.cloudinary.com/dyntggmrp/image/upload/v1623778080/logo_isbszw.png" style="display: block; margin: 0 auto;"  width="50px"/>
@@ -50,12 +50,12 @@ const mailsDestinos = {
             <div style="background: rgb(255, 255, 255, 0.3); padding: 10px 0; width: 100%;">
                 <h1 style="color: #fff; font-weight: 800; margin-bottom: 10px; text-align: center;">RECUPERACION DE CUENTA</h1>
                 
-                <a href="http://localhost:3000/recuperar-clave/${token}" target="_blanck"  style="margin-top: 50px; width: 100%;">
+                <a href="https://gamingused.herokuapp.com/recuperar-clave/${token}" target="_blanck"  style="margin-top: 50px; width: 100%;">
                     <img src="https://res.cloudinary.com/dyntggmrp/image/upload/v1631216888/usadoGamer/login_qvusbo.png" alt="img-gaming" width="300px" style="display: block; margin: 0 auto;"/>
                 </a>
 
                 <h6 style="font-size: 16px; text-align: center">
-                    haz click en la imagen o <a href="http://localhost:3000/recuperar-clave/${token}" target="_blanck" style="color: rgb(85, 123, 172);">aqui</a> para restaurar clave
+                    haz click en la imagen o <a href="https://gamingused.herokuapp.com/recuperar-clave/${token}" target="_blanck" style="color: rgb(85, 123, 172);">aqui</a> para restaurar clave
                 </h6>
                 <p style="text-align: center">En caso que no seas tú, puedes ignorarlo, tu cuenta esta segura</p>
                 <img src="https://res.cloudinary.com/dyntggmrp/image/upload/v1623778080/logo_isbszw.png" style="display: block; margin: 0 auto;"  width="50px"/>
