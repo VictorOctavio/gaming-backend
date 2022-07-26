@@ -20,7 +20,7 @@ const sendEmail = async(user, token, destino) => {
     })
 
     await transporter.sendMail({
-        from: '"Bienvenido a UsadoGamer" <usedGaming@gmail.com>',
+        from: 'UsadoGamer <usedGaming@gmail.com>',
         to: user, 
         subject: "Empieza ahora mismo a ver nuevas publicaciones", 
         html: mesaggeHTML
