@@ -32,10 +32,10 @@ app.use((req, res, next) => {
 });
 
 //Rutas
-app.use('/api', router_app)
-app.use('/api', router_user)
-app.use('/api', router_producto)
-app.use('/api', router_admin)
+app.use('/api', router_app);
+app.use('/api', router_user);
+app.use('/api', router_producto);
+app.use('/api', router_admin);
 
 //Export Module
 module.exports = app;

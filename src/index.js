@@ -4,11 +4,9 @@ const mongoose = require('mongoose');
 const app = require('./app');
 
 mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true})
-.then(() => {
-    console.log('Connection Success');
-
+.then((con) => {
     app.listen(app.get('port'), () => {
-        console.log(`Server on port: ${app.get('port')}`)
+        console.log(`Server on port: ${con.connection.name}`)
     })
 })
 .catch(err => console.log(err))
